@@ -1,0 +1,2 @@
+C:\Users\adria\source\repos\Pi2Test\x64\Debug\Pi2Test.exe
+C:\Users\adria\source\repos\Pi2Test\x64\Debug\Pi2Test.pdb

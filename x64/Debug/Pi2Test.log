@@ -1,0 +1,3 @@
+﻿  Pi2Test.cpp
+C:\Users\adria\source\repos\Pi2Test\Pi2Test.cpp(19,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Pi2Test.vcxproj -> C:\Users\adria\source\repos\Pi2Test\x64\Debug\Pi2Test.exe
