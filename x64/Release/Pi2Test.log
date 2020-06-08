@@ -1,0 +1,11 @@
+﻿  Pi2Test.cpp
+C:\Users\adria\source\repos\Pi2Test\Pi2Test.cpp(23,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\adria\source\repos\Pi2Test\Pi2Test.cpp(44,21): warning C4129: 'p': unrecognized character escape sequence
+C:\Users\adria\source\repos\Pi2Test\Pi2Test.cpp(50,11): warning C4129: 'p': unrecognized character escape sequence
+C:\Users\adria\source\repos\Pi2Test\Pi2Test.cpp(52,21): warning C4129: 'p': unrecognized character escape sequence
+  Generating code
+  8 of 23 functions (34.8%) were compiled, the rest were copied from previous compilation.
+    7 functions were new in current compilation
+    5 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Pi2Test.vcxproj -> C:\Users\adria\source\repos\Pi2Test\x64\Release\Pi2Test.exe

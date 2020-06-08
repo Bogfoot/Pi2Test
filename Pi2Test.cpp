@@ -5,6 +5,8 @@
 #include <random>
 #include <math.h>
 #include <time.h>
+#include <iomanip>
+
 
 using namespace std;
 
@@ -16,23 +18,42 @@ using namespace std;
 */
 int main()
 {
+	cout << std::fixed;
+	cout << std::setprecision(8);
 	srand(time(NULL));
-	double rand_x, rand_y;
+	double rand_x, rand_y, BrPi[11];
 	double polozaj;
-	int BrTuKrug = 0, BrTuKvad=100000;
+	int n;
+	char odg;
+	cout << "Unesi potenciju: " << endl;
+	cin >> n;
+
+	for(int j =0; j<n;j++){
+		int BrTuKrug = 0;
+		for (int i = 0; i < pow(10,j); i++)
+			{
+				rand_x = ((double)rand() / (RAND_MAX));
+				rand_y = ((double)rand() / (RAND_MAX));
+				polozaj = pow(rand_x, 2) + pow(rand_y, 2);
+				if (sqrt(polozaj) <= 1)
+					BrTuKrug++;
+				
+			}
+		double pi = ((double)BrTuKrug / pow(10, j) * 4);
+			BrPi[j] = pi;
+			cout << j + 1 << "-ti \pi je: " << BrPi[j] << endl;
+	}
+	cout << "Zelite li ispisati ponovno sve?(y/n)" << endl;
+	cin >> odg;
+	if (odg == 'y')
+	{
+		cout << "Skup \pi-jeva dobijen pomocu Monte Carlo metode." << endl;
+		for (int i = 0; i < n; i++)
+			cout << i + 1 << "-ti \pi je: " << BrPi[i] << endl;
+	}
+	else
 	
 
-	for (int i = 0; i < BrTuKvad; i++)
-	{
-		rand_x = ((double)rand() / (RAND_MAX));
-		rand_y = ((double)rand() / (RAND_MAX));
-		polozaj = pow(rand_x, 2) + pow(rand_y, 2);
-		if (sqrt(polozaj) <= 1)
-			BrTuKrug++;
-		/*cout << "rand_x= " << rand_x <<"rand_y= "<< rand_y<< endl;*/
-	}
-
-	cout << BrTuKrug << endl;
-	double pi = ((double)BrTuKrug / (double)BrTuKvad)*4;
-	cout << "4*BrTuKrug/BrTuKvad:  " << pi << endl;
+	system("PAUSE");
+	return 0;
 }
