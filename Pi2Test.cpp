@@ -52,6 +52,8 @@ int main()
 			cout << i + 1 << "-ti \pi je: " << BrPi[i] << endl;
 	}
 	else
+
+		/*Treba skužit kako uključiti grafove */
 	
 
 	system("PAUSE");
