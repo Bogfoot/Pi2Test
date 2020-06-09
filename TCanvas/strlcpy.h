@@ -16,7 +16,7 @@
 #ifndef WIN32
 #include <unistd.h>
 #else
-#   include <sys/types.h>
+#include <sys/types.h>
 #endif
 
 #ifdef __cplusplus

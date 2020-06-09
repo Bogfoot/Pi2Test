@@ -1,6 +1,5 @@
 ﻿  Pi2Test.cpp
 C:\Users\adria\source\repos\Pi2Test\Pi2Test.cpp(23,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\adria\source\repos\Pi2Test\Pi2Test.cpp(44,21): warning C4129: 'p': unrecognized character escape sequence
-C:\Users\adria\source\repos\Pi2Test\Pi2Test.cpp(50,11): warning C4129: 'p': unrecognized character escape sequence
-C:\Users\adria\source\repos\Pi2Test\Pi2Test.cpp(52,21): warning C4129: 'p': unrecognized character escape sequence
+C:\Users\adria\source\repos\Pi2Test\Pi2Test.cpp(54,11): warning C4129: 'p': unrecognized character escape sequence
+C:\Users\adria\source\repos\Pi2Test\Pi2Test.cpp(59,46): warning C4129: 'p': unrecognized character escape sequence
   Pi2Test.vcxproj -> C:\Users\adria\source\repos\Pi2Test\x64\Debug\Pi2Test.exe
