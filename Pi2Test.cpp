@@ -26,8 +26,9 @@ int main()
 	int n;
 	char odg, odg1;
 	double srVrij[11] = {0.0}, stDev[11] = { 0.0 };
-
-	 skok:
+	
+	do
+	{
 	cout << "Unesi potenciju: " << endl;
 	cin >> n;
 
@@ -108,13 +109,7 @@ int main()
 
 	cout << "Zelite li ponoviti sve eksperimente s drugom potencijom?(y/n)" <<endl ;
 	cin >> odg1;
-	if(odg1=='y')
-		goto skok;
-	else
-	{
-		goto stop;
-	}
-	stop:
+	}while(odg1 != 'y');	
 	system("PAUSE");
 	return 0;
 }
